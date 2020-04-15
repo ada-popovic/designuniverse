@@ -1,0 +1,75 @@
+/* FONT */
+
+
+
+/* BASE */
+
+
+* {
+    margin: 0;
+    /* display: inline-block; */
+}
+
+html,body {
+  height: 100%;
+
+}
+
+
+body {
+
+
+  height: 150%;
+}
+
+output {
+  display: none;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f5f4ff;
+  transition: background 1s ease;
+  font-family: sans-serif;
+}
+
+.UniverseOne {
+  width:100vw;
+  height:100vh;
+  color:black;
+
+}
+
+.UniverseTwo {
+  width:100vw;
+  height:100vh;
+  color:#f5f4ff;
+}
+
+/* *layer */
+
+.BottomLayer{
+  position: absolute;
+  width: 90%;
+  height: auto;
+  z-index:-1;
+}
+
+.MiddleLayer{
+  position: absolute;
+  width: 80%;
+  height: auto;
+  z-index:0;
+}
+
+.TopLayer{
+  position: absolute;
+  width: 70%;
+  height: auto;
+  z-index:1;
+}
+
+img{
+  width:100%;
+}
