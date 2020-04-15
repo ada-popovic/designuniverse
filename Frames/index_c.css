@@ -10,7 +10,7 @@ html,body {
 
 
 body {
-  background-color: white;
+  background-color: red;
 
   background-image: repeating-linear-gradient(white, grey 10%, blue 15%);
   height: 150%;
