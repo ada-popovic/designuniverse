@@ -12,7 +12,7 @@ html,body {
 body {
   background-color: red;
 
-  background-image: repeating-linear-gradient(white, grey 10%, blue 15%);
+  background-image: repeating-linear-gradient(white, black, #8bff00 10%);
   height: 150%;
 }
 
@@ -21,150 +21,10 @@ output {
 }
 
 
-.tao img{
+.try img{
   position: absolute;
   display: inline-block;
-  margin-left: 70%;
+  margin-left: 0%;
   margin-top: 0%;
-  width: 335px;
-  float: right;
-  right: 0;
-  animation-duration: 3s;
-  animation-name: slidein;
-  mix-blend-mode: difference;
-}
-
-.af img{
-  position: absolute;
-  display: inline-block;
-  left:0px;
-  top:200px;
-  width: 100px;
-  animation-name: move;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  z-index: 40;
-}
-
-.tao{
-  float: right;
-  right: 0;
-}
-.cheeseballs img{
-  position: absolute;
-  display: inline-block;
-  margin-left: 3%;
-  margin-top: 15%;
-  width: 200px;
-}
-
-.print{
-  position: fixed;
-  display: inline-block;
-  margin-top: 11%;
-  margin-left: 3%;
-  z-index: 30;
-}
-
-.control {
-  position: fixed;
-  top: 30px;
-  left: 30px;
-  padding: 10px;
   width: 100%;
-  max-width: 250px;
-  min-width: 200px;
-  transition: 400ms ease;
-  z-index: 1;
-}
-
-.control input {
-  width: 100%;
-  padding: 5px;
-}
-.control input.text-data {
-  margin-bottom: 10px;
-}
-
-
-.control2 {
-  position: fixed;
-  top: 70px;
-  left: 30px;
-  padding: 10px;
-  width: 100%;
-  max-width: 250px;
-  min-width: 200px;
-  transition: 400ms ease;
-  z-index: 1;
-}
-
-.control2 input {
-  width: 100%;
-  padding: 5px;
-}
-.control2 input.text-data {
-  margin-bottom: 10px;
-}
-
-.art {
-  position: absolute;
-  top: 10%; left: 40%;
-  transform: translateX(-50%);
-  height: 600px;
-  width: 800px;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.art2 {
-  position: absolute;
-  top: 40%; left: 60%;
-  transform: translateX(-50%);
-  height: 600px;
-  width: 800px;
-  font-family: 'Sprat';
-  font-weight: normal;
-  font-variant: 'Condensed';
-  font-size: 60px;
-  color: black;
-
-}
-
-ul {
-  list-style: none;
-}
-
-.block {
-  position: absolute;
-  letter-spacing: -.6px;
-  line-height: 60px;
-  cursor: pointer;
-}
-
-.block:nth-child(1) {
-  left: 47px;
-  top: 18px;
-}
-
-
-@keyframes move {
-  0%   {left:0px; top:400px;}
-  25%  {left:1300px; top:400px;}
-  50%  {left:1300px; top:600px;}
-  75%  {left:0px; top:600px;}
-  100% {left:0px; top:400px;}
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 140%;
-  }
-
-  to {
-    margin-left: 70%;
-    width: 335px;
-  }
 }
