@@ -5,73 +5,88 @@
   <meta charset="utf-8">
   <title>Universe</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="index.js"></script>
+  <script src="index_b.js"></script>
   <script src="js/jquery.scrollie.min.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
 
-  <link href="index.css" rel="stylesheet" />
+  $( function() {
+    $( "#icon2" ).draggable();
+  } );
+
+  $( function() {
+    $( "#draggable2" ).draggable();
+  } );
+  </script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <link href="index_b.css" rel="stylesheet" />
 </head>
 
 <body>
-  <button class="print" onclick="window.print()">Print this page</button>
+  <div class='PreContainer'>
 
-
-
-
-
-  <img src="images/designbackground.jpg">
-
-
+  <!-- <button class="print" onclick="window.print()">Print this page</button> -->
 
 
 
 
 
 
+    <div class=rotationIcon3>
+    <a href='#section2'>  <img src='images/frame_b/47_DVD.png'> </a>
+    </div>
 
-<div class='UniversTwo'>
+    <div class=rotationIcon style='margin-top:25%; margin-left: 30%; position:fixed; z-index:102;'>
+      <img class='icon' src='images/frame_b/47_DVD.png'>
+    </div>
 
-<div class="slide slide-two" data-background="black">
+    <div class='rotationIcon' style='margin-top:10%; margin-left: 45%;'>
+      <img src='images/frame_b/47_DVD.png'>
+    </div>
 
-<div class='BottomLayer'>
+    <div class=rotationIcon2 style='margin-top:40%; margin-left: 70%;'>
+      <img id='icon2' class='icon2' src='images/frame_b/47_DVD.png'>
+    </div>
 
-</div>
+    <div class=rotationIcon style='margin-top:5%; margin-left: 85%;'>
+      <img src='images/frame_b/47_DVD.png'>
+    </div>
 
-<div class='MiddleLayer'>
-</div>
+    <div class="image05" style="position: absolute; z-index:101; display: none;">
+      <img src='images/frame_b/15.AP.png' >
+    </div>
 
-<div class='TopLayer'>
-
-</div>
-
-</div>
-</div>
-
-<div class='UniversThree'>
-
-<div class="slide slide-three" data-background="black">
-
-<div class='BottomLayer'>
-</div>
-
-<div class='MiddleLayer'>
-</div>
-
-<div class='TopLayer'>
-
-</div>
-
-</div>
-</div>
+    <img id="draggable" class="ui-widget-content" src='images/frame_b/22.AVN.png' style="width:40%; height auto; position: absolute; z-index:101; display: none;">
+    <img class="image04" src='images/frame_b/53.RB.png' style="position: absolute; z-index:50; display: none;">
 
 
 
+    <div class=SectionOne>
+    </div>
 
+    <div class="tech-slideshow">
+      <div class="mover-1"></div>
+    </div>
+
+    <!-- <img class="image09" src='images/frame_b/21_DVD.jpg' style="position: absolute; z-index:100; display: none;"> -->
+
+    <img id="draggable2" class="image07" src='images/frame_b/36.AP2.png' style='position:absolute; margin-top:-20%; z-index:0;'>
+    <img id="section2" class="image06" src='images/frame_b/36.AP.png' style='position:absolute; margin-top:-20%; z-index:-1;'>
+
+    <img class="image08" src='images/frame_b/21_DVD.jpg' style=" position: absolute; z-index:-1; display: none;">
+    <img class="image09" src='images/frame_b/18.SR.png' style="margin-left : 25vw; margin-top: 25vw; width:50%;position: absolute; z-index:99; display: none;">
+
+
+
+  </div>
 
 
 
 
 </body>
-
-
-
+<script src="index_b.js"></script>
 </html>
