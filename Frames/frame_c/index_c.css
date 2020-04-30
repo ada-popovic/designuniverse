@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    /* display: inline-block; */
+}
+
+html,body {
+  height: 100%;
+  background-color: grey;
+}
+
+
+body {
+  background-color: lightgrey;
+  height: 250%;
+}
+
+output {
+  display: none;
+}
+
+/* //////////////////////////////////TEXT//////////////////////////////////////// */
+/* //////////////////////////////////TEXT//////////////////////////////////////// */
+/* //////////////////////////////////TEXT//////////////////////////////////////// */
+/* //////////////////////////////////TEXT//////////////////////////////////////// */
+
+.multipleText{
+  background-color: #00ff2a;
+  position: fixed;
+  width: 20%;
+  height: 30%;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+.control {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  padding: 10px;
+  width: 100%;
+  max-width: 250px;
+  min-width: 200px;
+  transition: 400ms ease;
+  z-index: 1;
+}
+
+.control input {
+  width: 100%;
+  padding: 5px;
+}
+.control input.text-data {
+  margin-bottom: 10px;
+}
+
+.art {
+  position: fixed;
+  top: 10%; left: 40%;
+  height: 600px;
+  width: 800px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.block {
+  position: fixed;
+  letter-spacing: -.6px;
+  line-height: 60px;
+  cursor: pointer;
+}
+
+.block:nth-child(1) {
+  left: 47px;
+  top: 18px;
+}
+
+
+/* ////////////////////// */
+
+p {
+  position: fixed;
+  font-family:Calibri;
+  margin-left: 30%;
+  margin-top: 50%;
+}
+
+h1 {
+    position: fixed;
+    z-index: 50;
+  font-family: Calibri;
+  margin-top: 40%;
+  margin-left: 60%;
+  transform: skew(20deg,-4deg);
+  text-shadow: 0 6px 1px  #00ff2a,
+               0 0 5px  #00ff2a,
+               0 1px 3px  #00ff2a,
+               0 3px 5px  #00ff2a,
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.newest {
+    position: absolute;
+  font-family: Calibri;
+  margin-top: 20%;
+  margin-left: 50%;
+}
+
+/* //////////////////////////////////IMAGES//////////////////////////////////////// */
+/* //////////////////////////////////IMAGES//////////////////////////////////////// */
+/* //////////////////////////////////IMAGES//////////////////////////////////////// */
+/* //////////////////////////////////IMAGES//////////////////////////////////////// */
