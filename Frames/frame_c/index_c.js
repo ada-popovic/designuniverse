@@ -20,7 +20,18 @@ $(document).ready(function() {
 });
 
 
-javascript:document.body.contentEditable='true'; document.designMode='on';
+$( function() {
+
+  $( '.ball' ).draggable( {
+  });
+
+  $( '.tryouts' ).draggable( {
+  });
+
+});
+
+
+// javascript:document.body.contentEditable='true'; document.designMode='on';
 
 
 function setFontText(text) {
