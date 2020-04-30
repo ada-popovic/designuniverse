@@ -20,10 +20,12 @@
     $( "#draggable2" ).draggable();
   } );
   </script>
+
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
   <link href="index_b.css" rel="stylesheet" />
+
 </head>
 
 <body>
@@ -31,14 +33,21 @@
 
   <!-- <button class="print" onclick="window.print()">Print this page</button> -->
 
+  <a onclick="myAudioFunction('A');">
+  <div class='image10'>
+  <img src='images/frame_b/15.SR.png' style='margin-left:25%'>
+  </div>
+</a>
 
 
-
+<input type="text" class="text-data" placeholder="YOUR TEXT HERE" />
 
 
     <div class=rotationIcon3>
-    <a href='#section2'>  <img src='images/frame_b/47_DVD.png'> </a>
+    <a onclick="myAudioFunction('A');" >  <img src='images/frame_b/47_DVD.png'> </a>
     </div>
+
+
 
     <div class=rotationIcon style='margin-top:25%; margin-left: 30%; position:fixed; z-index:102;'>
       <img class='icon' src='images/frame_b/47_DVD.png'>
@@ -72,6 +81,18 @@
       <div class="mover-1"></div>
     </div>
 
+
+<div class='gif'display='inline-block'>
+  <img src='images/frame_b/gif/mozillaskianimated2.gif' display='inline-block' >
+</div>
+<div class='gif'display='inline-block'>
+  <img src='images/frame_b/gif/mozillaskianimated2.gif' display='inline-block' style='margin-left:55%' >
+</div>
+<div class='gif'display='inline-block'>
+  <img src='images/frame_b/gif/mozillaskianimated2.gif' display='inline-block' style='margin-left:155%' >
+</div>
+
+
     <!-- <img class="image09" src='images/frame_b/21_DVD.jpg' style="position: absolute; z-index:100; display: none;"> -->
 
     <img id="draggable2" class="image07" src='images/frame_b/36.AP2.png' style='position:absolute; margin-top:-20%; z-index:0;'>
@@ -82,11 +103,20 @@
 
 
 
-  </div>
 
 
-
-
+</div>
 </body>
+<script>
+     var aAudio = new Audio('images/frame_b/a.mp3');
+     var bAudio = new Audio('images/frame_b/b.mp3');
+     function myAudioFunction(letter) {
+         if(letter == 'a') {
+             aAudio.play();
+         } else if(letter == 'b') {
+             bAudio.play();
+         }
+     }
+ </script>
 <script src="index_b.js"></script>
 </html>

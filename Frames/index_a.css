@@ -1,0 +1,149 @@
+
+@font-face {
+    font-family: 'festival';
+    src: url('font/alergia.otf');
+}
+
+*{
+    margin:0;
+    padding:0;
+    overflow-y:hidden;
+}
+
+body, html{
+  background-image:url('images/frame_a/bg.png');
+  width:100%;
+  overflow: hidden;
+}
+
+.imgoverlay {
+  background:url('images/frame_a/9.MM.png') -25px -50px;
+  background-repeat: none;
+  position:fixed ;
+  top:0;
+  width:100%;
+  z-index:0;
+    height:100%;
+    background-size: calc(50% + 50px);
+
+}
+
+.firebar{
+    position: absolute;
+  width:100vw;
+  height:auto;
+  z-index:100;
+}
+
+.blockleft{
+    position: absolute;
+  width:10%;
+  height:20%;
+  display: inline-block;
+  margin-left:5%;
+  z-index:100;
+}
+.blockright{
+  position: absolute;
+  margin-left:65%;
+  width:10%;
+  height:20%;
+  display:inline-block;
+  z-index:100;
+}
+
+
+
+
+.shadow {
+  box-shadow: 0px 3px 10px rgba(0,0,0,.8);
+}
+
+.container1 {
+  width: 100%;
+  margin-left: 25%;
+  position:absolute;
+
+}
+
+h3 {
+  font-family: 'festival';
+  font-size: 10em;
+  margin-left: 0.3%;
+}
+
+h4 {
+  font-family: 'festival';
+  font-size: 10em;
+  margin-left: 5em;
+}
+
+h5 {
+  font-family: 'festival';
+  font-size: 10em;
+}
+
+h6 {
+  font-family: 'festival';
+  font-size: 10em;
+  margin-left: 14.2em;
+}
+
+
+.Title1{
+    position:relative;
+    top:0px;
+
+    -webkit-animation-name: move;
+    	-webkit-animation-duration: 1s;
+    	-webkit-animation-iteration-count: infinite;
+    	-webkit-animation-direction: right;
+
+}
+
+.Title3{
+    position:relative;
+    top:0px;
+
+    -webkit-animation-name: move;
+    	-webkit-animation-duration: 1s;
+    	-webkit-animation-iteration-count: infinite;
+    	-webkit-animation-direction: right;
+      -webkit-animation-timing-function: linear;
+
+}
+
+.Title2{
+    position:absolute;
+    top:0px;
+
+}
+
+img {
+  width:100%;
+}
+
+#top-image {
+background:url('images/frame_a/46.AP.png') -25px -50px;
+background-repeat: none;
+position:fixed ;
+top:0;
+width:100%;
+z-index:-1;
+  height:100%;
+  background-size: calc(100% + 50px);
+
+}
+
+
+
+
+
+@-webkit-keyframes move {
+    	0% {
+    		margin-top: -50%;
+    	}
+    	100% {
+    		margin-top: 10%;
+    	}
+    }
