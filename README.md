@@ -39,11 +39,11 @@
 
 If you click on this image, Class no-print change to print and will apear in the printscreen:
 
-<code>
+<html>
     
 <img class='door no-print remove' src='images/frame_a/gif/door.gif'>
 
-</code>
+</html>
 
 
 script:
