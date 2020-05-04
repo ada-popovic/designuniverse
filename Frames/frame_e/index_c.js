@@ -27,3 +27,9 @@ function setFontText(text) {
        document.getElementById("Courier_new").innerHTML = text;
        document.getElementById("Arial_Black").innerHTML = text;
 }
+
+$(document).ready(function(){
+ $(".cube").click(function(){
+    $(this).closest(".remove").removeClass("no-print").addClass('print');
+ });
+});

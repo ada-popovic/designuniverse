@@ -110,3 +110,22 @@ h1 {
   margin-top: 20%;
   margin-left: 50%;
 }
+
+.cube {
+  display: inline-block;
+  position: fixed;
+  width:300px;
+  height:300px;
+  color:red;
+  margin-top: 30%;
+  margin-left: 30%;
+  z-index: 300;
+}
+
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
