@@ -179,3 +179,15 @@ h1 {
   margin-left: 0%;
   z-index: 0;
 }
+
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+@page {
+  size: 100mm 200mm landscape;
+}
