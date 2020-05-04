@@ -34,3 +34,17 @@
 @page {
   size: 4in 6in landscape;
 }
+
+##UPDATE 04-05-20
+If you click on this image, Class no-print change to print and will apear in the printscreen:
+
+<img class='door no-print remove' src='images/frame_a/gif/door.gif'>
+
+script:
+
+$(document).ready(function(){
+ $(".door").click(function(){
+    $(this).closest(".remove").removeClass("no-print").addClass('print');
+ });
+});
+</script>
