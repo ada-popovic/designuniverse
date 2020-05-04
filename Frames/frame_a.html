@@ -7,11 +7,19 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <script src="index_a.js"></script>
+
   <link href="index_a.css" rel="stylesheet" />
 
 </head>
 
+
+
 <body>
+
+
+  <div class='seconddoor' style="display: none;">
+  </div>
+
   <div class='firebar'>
     <img src='images/frame_a/gif/firebar.gif'>
   </div>
@@ -24,22 +32,67 @@
   <img src='images/frame_a/gif/skull.gif'>
 </div>
 
+<div id='door2' class='blockleftdoor'>
+  <img src='images/frame_a/gif/doorin_l.gif'>
+</div>
+
+<div class='blockrightdoor'>
+  <img src='images/frame_a/gif/doorin_r.gif'>
+</div>
 
 
+<input type="text" class="text-data" placeholder="YOURTEXT" />
 
 
+  <img class='door no-print remove' src='images/frame_a/gif/door.gif'>
+
+
+<div class='move-area'>
+  <div class='.container'>
+    <div class='eye'><img src='images/frame_a/39.SR.png'></div>
+  </div>
+
+  <div class='.container2'>
+    <div class='eye'><img src='images/frame_a/39.SR.png'></div>
+  </div>
+
+    </div>
+
+<!--
 <div class="imgoverlay">
 </div>
 
 <div id="top-image"></div>
 
-
+ -->
 
 
 
 
 </body>
 
+<script>
+$(".move-area").mousemove(function(event) {
+var eye = $(".eye");
+var x = (eye.offset().left) + (eye.width() / 2);
+var y = (eye.offset().top) + (eye.height() / 2);
+var rad = Math.atan2(event.pageX - x, event.pageY - y);
+var rot = (rad * (180 / Math.PI) * -1) + 180;
+eye.css({
+  '-webkit-transform': 'rotate(' + rot + 'deg)',
+  '-moz-transform': 'rotate(' + rot + 'deg)',
+  '-ms-transform': 'rotate(' + rot + 'deg)',
+  'transform': 'rotate(' + rot + 'deg)'
+});
+});
+</script>
+<script>
+$(document).ready(function(){
+ $(".door").click(function(){
+    $(this).closest(".remove").removeClass("no-print").addClass('print');
+ });
+});
+</script>
 
 
 </html>

@@ -7,7 +7,13 @@
 *{
     margin:0;
     padding:0;
-    overflow-y:hidden;
+
+}
+
+::placeholder {
+  color: red;
+  opacity: 1; /* Firefox */
+  text-shadow: 0px 0px 8px #000;
 }
 
 body, html{
@@ -15,6 +21,29 @@ body, html{
   width:100%;
   overflow: hidden;
 }
+
+.PreContainer {
+  width: 100vw;
+  height: auto;
+}
+
+
+input {
+  width: 100%;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  background: transparent;
+  font-size: 10em;
+  font-family: serif;
+  text-align: center;
+  border-style: none;
+  margin-top: 0%;
+  color:red;
+  text-shadow: 0px 0px 8px #000;
+
+}
+
 
 .imgoverlay {
   background:url('images/frame_a/9.MM.png') -25px -50px;
@@ -25,6 +54,7 @@ body, html{
   z-index:0;
     height:100%;
     background-size: calc(50% + 50px);
+    transform: rotateY(40deg);
 
 }
 
@@ -45,14 +75,43 @@ body, html{
 }
 .blockright{
   position: absolute;
-  margin-left:65%;
+  margin-left:80%;
   width:10%;
   height:20%;
   display:inline-block;
   z-index:100;
 }
 
+.blockleftdoor{
+    position: absolute;
+  width:30px;
+  height:30px;
+  display: inline-block;
+  margin-left:0%;
+  z-index:100;
+}
+.blockrightdoor{
+  position: absolute;
+  margin-left:98.5%;
+  width:30px;
+  height:30px;
+  display:inline-block;
+  z-index:100;
+}
 
+.door{
+position: absolute;
+  margin-top: 25%;
+  width: 10%;
+  height:auto;
+  margin-left: 45%;
+}
+
+.seconddoor{
+  width:100vw;
+  height: 100vh;
+  background: white;
+}
 
 
 .shadow {
@@ -135,8 +194,39 @@ z-index:-1;
 
 }
 
+.move-area{/*normally use body*/
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.container {
+  width: 50%;
+}
+
+.container2 {
+  width: 20%;
+}
+.eye {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  height:25%;
+}
+
+.eye:after {
+  position: absolute;
+  bottom: 25%;
+  width: 50%;
+  height: 25%;
+  border-radius: 50%;
+  content: " ";
+}
 
 
+
+@media print {
+.no-print, .no-print * { display: none !important; } }
 
 
 @-webkit-keyframes move {
