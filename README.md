@@ -1,3 +1,6 @@
+# README.md 
+
+```css
 @media print
 {    
     .no-print, .no-print *
@@ -20,7 +23,6 @@
     }
 </style>
 
-
 @page {
   size: A4 landscape;
 }
@@ -34,26 +36,21 @@
 @page {
   size: 4in 6in landscape;
 }
+```
 
-##UPDATE 04-05-20
+### UPDATE 17.00 04-05-2020
 
-If you click on this image, Class no-print change to print and will apear in the printscreen:
+If you click on this image, Class **.no-print** change to **.print** and the image will appear on the printscreen:
 
-<html>
-    
+```html
 <img class='door no-print remove' src='images/frame_a/gif/door.gif'>
 
-</html>
+```
 
-
-script:
-
-<code>
-    
+```jsx
 $(document).ready(function(){
  $(".door").click(function(){
     $(this).closest(".remove").removeClass("no-print").addClass('print');
  });
 });
-
-</code>
+```
