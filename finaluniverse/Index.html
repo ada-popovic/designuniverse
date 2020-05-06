@@ -5,14 +5,7 @@
   <meta charset="utf-8">
   <title>Index Page UNIVERSE</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!-- Global JavaScript-->
-  <script src="index.js"></script>
-<!-- JavaScript for every universe -->
-  <script src="U1/U1.js"></script>
-  <script src="U2/U2.js"></script>
-  <script src="U3/U3.js"></script>
-  <script src="U4/U4.js"></script>
-  <script src="U5/U5.js"></script>
+
 <!-- Global Stylesheet-->
   <link href="index.css" rel="stylesheet" />
 <!-- Stylesheet and JavaScript for every universe -->
@@ -30,19 +23,28 @@
   </div>
 
   <div class='index-universe1'>
-    <img class="U1-transport-U2" src='U1/img/image_1.png'>
+    <img class="u1-transport-u2" style='width:45%; height:auto; display:inline-block;' src='U1/img/image_1.png'>
+    <img class="u1-transport-u4" style='width:45%; height:auto;' src='U1/img/image_2.gif'>
   </div>
 
-  <div class='index-universe2'>
+  <div class='index-universe2' style='display: none;'>
+    <img class="u2-transport-u3" src='U2/img/image_1.png'>
   </div>
 
-  <div class='index-universe3'>
+  <div class='index-universe3' style='display: none;'>
+    <img class="u3-transport-u4" src='U3/img/image_1.png'>
   </div>
 
-  <div class='index-universe4'>
+  <div class='index-universe4' style='display: none;'>
+    <img class="u4-transport-u5" src='U4/img/image_1.png'>
   </div>
 
-  <div class='index-universe5'>
+  <div class='index-universe5' style='display: none;'>
+    <img class="u5-transport-print" src='U5/img/image_1.png'>
+  </div>
+
+  <div class='index-printbutton' style='display: none;'>
+    print
   </div>
 
 
@@ -56,4 +58,12 @@
 
 
 </body>
+<!-- Global JavaScript-->
+  <script src="index.js"></script>
+<!-- JavaScript for every universe -->
+  <script src="U1/U1.js"></script>
+  <script src="U2/U2.js"></script>
+  <script src="U3/U3.js"></script>
+  <script src="U4/U4.js"></script>
+  <script src="U5/U5.js"></script>
 </html>

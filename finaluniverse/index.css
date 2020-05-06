@@ -39,7 +39,7 @@ img{
 }
 
 .index-universe1{
-    overflow: hidden;
+  overflow: hidden;
   width: 80%;
   height: 60%;
   margin-left: 10%;
@@ -49,6 +49,7 @@ img{
 }
 
 .index-universe2{
+  overflow: hidden;
   width: 60%;
   height: 80%;
   margin-left: 5%;
@@ -58,6 +59,7 @@ img{
 }
 
 .index-universe3{
+  overflow: hidden;
   width: 60%;
   height: 80%;
   margin-left: 35%;
@@ -67,6 +69,7 @@ img{
 }
 
 .index-universe4{
+  overflow: hidden;
   margin-left: 2%;
   margin-top: 2%;
   width: 90%;
@@ -76,9 +79,20 @@ img{
 }
 
 .index-universe5{
+  overflow: hidden;
   margin-left: 10%;
   margin-top: 2%;
   width: 80%;
+  height: 60%;
+  background-color: yellow;
+  display: block;
+}
+
+.index-print{
+  overflow: hidden;
+  margin-left: 10%;
+  margin-top: 2%;
+  width: 30%;
   height: 60%;
   background-color: yellow;
   display: block;
