@@ -48,3 +48,15 @@ $(".af").click(function(){
   // $(this).css("background-color", "red");
   $(".af").removeClass("no-print");
 });
+
+
+function Name() {
+  var x = document.getElementById("myText").value;
+  window.document.title = "contribution by " + x;
+
+}
+
+
+// window.document.title = "x";
+//
+// document.title = "Hello World";
