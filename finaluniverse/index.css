@@ -22,7 +22,13 @@ footer, header, main, menu, nav, section, summary {
   display: block;
 }
 
+img{
+  width: 100%;
+  height: auto;
+}
+
 .index-intro{
+
   margin-left: 2%;
   margin-top: 2%;
   color:#000;
@@ -33,6 +39,7 @@ footer, header, main, menu, nav, section, summary {
 }
 
 .index-universe1{
+    overflow: hidden;
   width: 80%;
   height: 60%;
   margin-left: 10%;
