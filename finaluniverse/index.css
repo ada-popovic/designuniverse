@@ -1,0 +1,99 @@
+/* FONT */
+
+
+/* BASE */
+*,
+*:before,
+*:after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,html {
+    height: 100%;
+    font-size: 16px;
+
+
+}
+
+article, aside, details, figcaption, figure,
+footer, header, main, menu, nav, section, summary {
+  /* Add correct display for IE 9- and some newer browsers */
+  display: block;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.index-intro{
+
+  margin-left: 2%;
+  margin-top: 2%;
+  color:#000;
+  font-family: sans-serif;
+  font-size: 1em;
+  width:50%;
+  height:auto;
+}
+
+.index-universe1{
+  overflow: hidden;
+  width: 80%;
+  height: 60%;
+  margin-left: 10%;
+  margin-top: 5%;
+  background-color: blue;
+  display: block;
+}
+
+.index-universe2{
+  overflow: hidden;
+  width: 60%;
+  height: 80%;
+  margin-left: 5%;
+  margin-top: 2%;
+  background-color: red;
+  display: block;
+}
+
+.index-universe3{
+  overflow: hidden;
+  width: 60%;
+  height: 80%;
+  margin-left: 35%;
+  margin-top: 2%;
+  background-color: green;
+  display: block;
+}
+
+.index-universe4{
+  overflow: hidden;
+  margin-left: 2%;
+  margin-top: 2%;
+  width: 90%;
+  height: 30%;
+  background-color: purple;
+  display: block;
+}
+
+.index-universe5{
+  overflow: hidden;
+  margin-left: 10%;
+  margin-top: 2%;
+  width: 80%;
+  height: 60%;
+  background-color: yellow;
+  display: block;
+}
+
+.index-print{
+  overflow: hidden;
+  margin-left: 10%;
+  margin-top: 2%;
+  width: 30%;
+  height: 60%;
+  background-color: yellow;
+  display: block;
+}
