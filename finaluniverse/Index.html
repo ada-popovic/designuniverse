@@ -26,14 +26,24 @@
     HERE?
   </div>
 
-  <input type="text" id="username" class="username no-print" value="What is your name?">
-  <button onclick="Name()" class="no-print">Start the journey</button>
+  <input type="text" id="username" class="username no-print" placeholder="What is your name?">
+  <button onclick="Name()" class="usernamebutton no-print">Start the journey</button>
 
-  <div class='index-universe1'>
+  <div class='index-universe1' style='display: none;'>
     <div class='u1-background no-print'></div>
-    <img class="u1-transport-u2" style='width:45%; height:auto; display:inline-block;' src='U1/img/image_1.png'>
-    <img class="u1-transport-u4" style='width:45%; height:auto;' src='U1/img/image_2.gif'>
-    <img class="u1-dog no-print" src='U1/img/image_2.gif'>
+
+    <div id="u1-image1" class="u1-transport-u2 u1-image1">
+      <img src='U1/img/image_1.png'>
+    </div>
+
+    <div id="u1-image2" class="u1-transport-u4 u1-image2">
+      <img src='U1/img/image_2.gif'>
+    </div>
+
+    <div id="u1-dog" class="u1-dog no-print">
+      <img src='U1/img/image_2.gif'>
+    </div>
+
   </div>
 
   <div class='index-universe2' style='display: none;'>

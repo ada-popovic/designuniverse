@@ -1,3 +1,7 @@
+$(".usernamebutton").click(function(){
+  $(".index-universe1").fadeToggle();
+});
+
 // UNIVERSE 1
 
 $(".u1-transport-u2").click(function(){
