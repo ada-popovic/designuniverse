@@ -8,19 +8,21 @@
   display: inline-block;
 }
 
-.u1-image1 {
+.u1-judgement {
   position: absolute;
   display: inline-block;
   margin-left: 10%;
-  z-index: 30;
+  margin-top: 40%;
+  z-index: 10;
   /* style='width:45%; height:auto; display:inline-block;' */
 }
-.u1-image1 img{
+
+.u1-judgement img{
   width:50%;
   height:auto;
 }
 
-.u1-image2 img{
+.u1-plant img{
   display: none;
   width:20%;
   height:auto;
@@ -33,7 +35,15 @@
 .u1-dog img{
   position: absolute;
   display: inline-block;
-  width:40%;
   height: auto;
-  margin-left: 30%;
+  margin-left: 50%;
+  z-index: 20;
+  width:40%;
+}
+
+.rainfall {
+  position: absolute;
+  margin-top: 40%;
+  margin-left: 0%;
+  z-index: 11;
 }

@@ -30,23 +30,21 @@ img{
 
 .index-intro{
 
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: 6%;
   color:#000;
   font-family: serif;
   font-size: 7em;
-  width:60%;
   height:auto;
 }
 
 .index-intro2{
 
-  margin-left: 30%;
-  margin-top: 0%;
+  margin-left: 20%;
+  margin-top: -2%;
   color:#000;
   font-family: sans-serif;
   font-size: 11em;
-  width:50%;
   height:auto;
 }
 

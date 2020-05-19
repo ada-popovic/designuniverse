@@ -1,0 +1,8 @@
+.u5-paprykarz img{
+  position: absolute;
+  display: inline-block;
+  height: auto;
+  margin-left: 50%;
+  z-index: 20;
+  width:10%;
+}
