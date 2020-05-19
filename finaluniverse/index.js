@@ -31,3 +31,15 @@ $(".u4-transport-u5").click(function(){
 $(".u5-transport-print").click(function(){
   $(".index-printbutton").fadeToggle();
 });
+
+function Name() {
+  var x = document.getElementById("username").value;
+  window.document.title = "contribution by " + x;
+
+}
+
+
+$(".u1-dog").click(function(){
+  // $(this).css("background-color", "red");
+  $(".u1-dog").removeClass("no-print");
+});

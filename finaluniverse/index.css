@@ -14,6 +14,7 @@ body,html {
     font-size: 16px;
 
 
+
 }
 
 article, aside, details, figcaption, figure,
@@ -29,42 +30,58 @@ img{
 
 .index-intro{
 
-  margin-left: 2%;
-  margin-top: 2%;
+  margin-left: 10%;
+  margin-top: 6%;
+  color:#000;
+  font-family: serif;
+  font-size: 7em;
+  width:60%;
+  height:auto;
+}
+
+.index-intro2{
+
+  margin-left: 30%;
+  margin-top: 0%;
   color:#000;
   font-family: sans-serif;
-  font-size: 1em;
+  font-size: 11em;
   width:50%;
   height:auto;
+}
+
+.username{
+  margin-left: 31%;
+  margin-top: 0%;
 }
 
 .index-universe1{
   overflow: hidden;
   width: 80%;
-  height: 60%;
+  height: 130%;
   margin-left: 10%;
-  margin-top: 5%;
-  background-color: blue;
+  margin-top: 20%;
+  /* background-color: blue; */
   display: block;
 }
 
 .index-universe2{
   overflow: hidden;
   width: 60%;
-  height: 80%;
+  height: 120%;
   margin-left: 5%;
-  margin-top: 2%;
-  background-color: red;
+  margin-top: 20%;
+  /* background-color: red; */
   display: block;
 }
 
 .index-universe3{
   overflow: hidden;
   width: 60%;
-  height: 80%;
+  height: 110%;
   margin-left: 35%;
   margin-top: 2%;
-  background-color: green;
+  /* background-color: green; */
   display: block;
 }
 
@@ -72,9 +89,9 @@ img{
   overflow: hidden;
   margin-left: 2%;
   margin-top: 2%;
-  width: 90%;
-  height: 30%;
-  background-color: purple;
+  width: 80%;
+  height: 90%;
+  /* background-color: purple; */
   display: block;
 }
 
@@ -83,17 +100,31 @@ img{
   margin-left: 10%;
   margin-top: 2%;
   width: 80%;
-  height: 60%;
-  background-color: yellow;
+  height: 100%;
+  /* background-color: yellow; */
   display: block;
 }
 
-.index-print{
+.index-printbutton{
   overflow: hidden;
-  margin-left: 10%;
-  margin-top: 2%;
+  margin-left: 30%;
+  margin-top: 10%;
   width: 30%;
   height: 60%;
-  background-color: yellow;
+
   display: block;
+}
+
+.printbutton{
+  margin-left: 20%;
+  margin-top: 30%;
+}
+
+
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
 }

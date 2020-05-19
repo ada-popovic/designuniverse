@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Index Page UNIVERSE</title>
+  <title>Why are we HERE?</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <!-- Global Stylesheet-->
@@ -19,32 +19,45 @@
 <body>
 
   <div class='index-intro'>
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    Why are we
   </div>
 
+  <div class='index-intro2'>
+    HERE?
+  </div>
+
+  <input type="text" id="username" class="username no-print" value="What is your name?">
+  <button onclick="Name()" class="no-print">Start the journey</button>
+
   <div class='index-universe1'>
+    <div class='u1-background no-print'></div>
     <img class="u1-transport-u2" style='width:45%; height:auto; display:inline-block;' src='U1/img/image_1.png'>
     <img class="u1-transport-u4" style='width:45%; height:auto;' src='U1/img/image_2.gif'>
+    <img class="u1-dog no-print" src='U1/img/image_2.gif'>
   </div>
 
   <div class='index-universe2' style='display: none;'>
+    <div class='u2-background no-print'></div>
     <img class="u2-transport-u3"  src='U2/img/image_1.png'>
   </div>
 
   <div class='index-universe3' style='display: none;'>
+    <div class='u3-background no-print'></div>
     <img class="u3-transport-u4" src='U3/img/image_1.png'>
   </div>
 
   <div class='index-universe4' style='display: none;'>
+    <div class='u4-background no-print'></div>
     <img class="u4-transport-u5" src='U4/img/image_1.png'>
   </div>
 
   <div class='index-universe5' style='display: none;'>
+    <div class='u5-background no-print'></div>
     <img class="u5-transport-print" src='U5/img/image_1.png'>
   </div>
 
   <div class='index-printbutton' style='display: none;'>
-    print
+    <button class="no-print printbutton" onclick="window.print()">Keep a lasting memory of this experience</button>
   </div>
 
 </body>
