@@ -1,0 +1,62 @@
+
+
+.u2-n64 {
+  position: absolute;
+  width:15%;
+  height: 15%;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+  z-index: 2;
+  transform-origin: center center;
+}
+
+.u2-n64:hover {
+  position: absolute;
+  width:15%;
+  height: 15%;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  z-index: 2;
+  transform-origin: center center;
+  }
+
+.u2-n64 img{
+width:100%;
+height:auto;
+}
+
+.u2-castel{
+  position: relative;
+  margin-top:60%;
+  width: 250%;
+  height: auto;
+  -webkit-animation:linear infinite alternate;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 4s;
+  z-index: 0;
+}
+
+.u2-putin{
+  position: absolute;
+  margin-top:15%;
+  width: 65%;
+  height: auto;
+  -webkit-animation:linear infinite alternate;
+  -webkit-animation-name: run2;
+  -webkit-animation-duration: 20s;
+  z-index: 1;
+}
+
+
+@-webkit-keyframes run {
+    0% { left: -25%;}
+    50%{ left : 0%;}
+    100%{ left: -25%;}
+}
+
+@-webkit-keyframes run2 {
+    0% { left: 0%;}
+    50%{ left : 25%;}
+    100%{ left: 0%;}
+}
