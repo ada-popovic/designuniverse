@@ -12,6 +12,11 @@
 body,html {
     height: 100%;
     font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+
+
 
 
 
@@ -54,13 +59,13 @@ img{
 }
 
 .index-universe1{
-  overflow: hidden;
+  /* overflow: auto; */
   width: 80%;
-  height: 130%;
+  height: 180%;
   margin-left: 10%;
   margin-top: 20%;
   /* background-color: blue; */
-  display: block;
+
 }
 
 .index-universe2{
@@ -68,8 +73,8 @@ img{
   width: 60%;
   height: 120%;
   margin-left: 5%;
-  margin-top: 20%;
-  /* background-color: red; */
+  margin-top: 40%;
+  background-color: red;
   display: block;
 }
 
@@ -86,10 +91,10 @@ img{
 .index-universe4{
   overflow: hidden;
   margin-left: 2%;
-  margin-top: 2%;
+  margin-top: 30%;
   width: 80%;
   height: 90%;
-  /* background-color: purple; */
+  background-color: purple;
   display: block;
 }
 
@@ -99,7 +104,7 @@ img{
   margin-top: 2%;
   width: 80%;
   height: 100%;
-  /* background-color: yellow; */
+  background-color: yellow;
   display: block;
 }
 
