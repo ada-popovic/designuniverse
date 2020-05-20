@@ -4,7 +4,7 @@ $(".usernamebutton").click(function(){
 
 // UNIVERSE 1
 
-$(".u1-transport-u2").click(function(){
+$(".u1-judgement").click(function(){
   $(".index-universe2").fadeToggle();
 });
 
