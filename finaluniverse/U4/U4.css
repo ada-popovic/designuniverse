@@ -1,0 +1,9 @@
+.u4-eye {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  height:25%;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  z-index: 2;
+}

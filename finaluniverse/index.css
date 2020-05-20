@@ -79,7 +79,7 @@ img{
 }
 
 .index-universe3{
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 60%;
   height: 110%;
   margin-left: 35%;
@@ -89,12 +89,13 @@ img{
 }
 
 .index-universe4{
-  overflow: hidden;
+
   margin-left: 2%;
   margin-top: 30%;
+  margin-bottom: 30%;
   width: 80%;
   height: 90%;
-  background-color: purple;
+  background-image:url('U4/img/bg.png');
   display: block;
 }
 

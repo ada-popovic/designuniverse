@@ -23,11 +23,6 @@ $(".u2-n64").click(function(){
 });
 
 // UNIVERSE 2 - NO PRINT
-$(".u2-n64").click(function(){
-  // $(this).css("background-color", "red");
-  $(".u2-n64").removeClass("no-print");
-});
-
 $(document).ready(function(){
  $(".u2-n64").click(function(){
     $(this).removeClass("no-print").addClass('print');
@@ -50,6 +45,9 @@ $(document).ready(function(){
 $(".u3-transport-u4").click(function(){
   $(".index-universe4").fadeToggle();
 });
+
+
+
 
 // UNIVERSE 4
 
