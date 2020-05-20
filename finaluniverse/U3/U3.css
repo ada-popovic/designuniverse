@@ -1,0 +1,25 @@
+
+
+
+
+
+
+@keyframes move {
+  0%   {left:0px; top:400px;}
+  25%  {left:1300px; top:400px;}
+  50%  {left:1300px; top:600px;}
+  75%  {left:0px; top:600px;}
+  100% {left:0px; top:400px;}
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 140%;
+  }
+
+  to {
+    margin-left: 70%;
+    width: 335px;
+  }
+}

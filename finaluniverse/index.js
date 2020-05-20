@@ -68,9 +68,3 @@ function Name() {
   window.document.title = "contribution by " + x;
 
 }
-
-
-$(".u1-dog").click(function(){
-  // $(this).css("background-color", "red");
-  $(".u1-dog").removeClass("no-print");
-});
