@@ -79,19 +79,19 @@ img{
 }
 
 .index-universe3{
-  
+
   width: 60%;
   height: 110%;
   margin-left: 20%;
   margin-top: 10%;
-
-
+margin-bottom: 30%;
+display: block;
 }
 
 .index-universe4{
   overflow: hidden;
   margin-left: 2%;
-  margin-top: 30%;
+  margin-top: 50%;
   margin-bottom: 30%;
   width: 80%;
   height: 90%;

@@ -15,7 +15,7 @@ $(".u1-transport-u4").click(function(){
 // UNIVERSE 2
 
 $(".u2-putin").click(function(){
-  $(".index-universe4").fadeToggle();
+  $(".index-universe3").fadeToggle();
 });
 
 $(".u2-n64").click(function(){
@@ -51,11 +51,11 @@ $(".u3-transport-u4").click(function(){
 
 // UNIVERSE 4
 
-$(".u4-transport-u5").click(function(){
+$(".u4-banana").click(function(){
   $(".index-universe5").fadeToggle();
 });
 
-// UNIVERSE 2 - NO PRINT
+// UNIVERSE 4 - NO PRINT
 $(document).ready(function(){
  $(".text-data").click(function(){
     $(this).removeClass("no-print").addClass('print');
