@@ -29,20 +29,17 @@ $(document).ready(function(){
 
 $( function() {
 
-  $( '.u1-sim' ).draggable( {
-  });
+  $( '.u1-sim' ).draggable( { });
 
-  $( '.u1-graph1' ).draggable( {
-  });
+  $( '.u1-graph1' ).draggable({ });
 
-  $( '.u1-graph2' ).draggable( {
-  });
+  $( '.u1-graph2' ).draggable( { });
 
-  $( '.u1-graph3' ).draggable( {
-  });
+  $( '.u1-graph3' ).draggable( { });
 
-  $( '.u1-portraits' ).draggable( {
-  });
+  $( '.u1-portraits' ).draggable({ containment: "window" });
+
+
 });
 
 $(".u1-judgement").click(function(){
