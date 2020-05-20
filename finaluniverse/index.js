@@ -14,8 +14,8 @@ $(".u1-transport-u4").click(function(){
 
 // UNIVERSE 2
 
-$(".u2-transport-u3").click(function(){
-  $(".index-universe3").fadeToggle();
+$(".u2-putin").click(function(){
+  $(".index-universe4").fadeToggle();
 });
 
 $(".u2-n64").click(function(){
@@ -54,6 +54,38 @@ $(".u3-transport-u4").click(function(){
 $(".u4-transport-u5").click(function(){
   $(".index-universe5").fadeToggle();
 });
+
+// UNIVERSE 2 - NO PRINT
+$(document).ready(function(){
+ $(".text-data").click(function(){
+    $(this).removeClass("no-print").addClass('print');
+ });
+});
+
+$(document).ready(function(){
+ $(".u4-eye").click(function(){
+    $(this).removeClass("no-print").addClass('print');
+ });
+});
+
+$(document).ready(function(){
+ $(".u4-eye-2").click(function(){
+    $(this).removeClass("no-print").addClass('print');
+ });
+});
+
+$(document).ready(function(){
+ $(".u4-firebar").click(function(){
+    $(this).removeClass("no-print").addClass('print');
+ });
+});
+
+$(document).ready(function(){
+ $(".u4-banana").click(function(){
+    $(this).removeClass("no-print").addClass('print');
+ });
+});
+
 
 // UNIVERSE 5
 
