@@ -7,7 +7,7 @@
   border-radius: 50%;
   -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
-  z-index: 2;
+  z-index: 5;
   transform-origin: center center;
 }
 
@@ -17,7 +17,7 @@
   height: 15%;
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
-  z-index: 2;
+  z-index: 5;
   transform-origin: center center;
   }
 
@@ -34,7 +34,7 @@ height:auto;
   -webkit-animation:linear infinite alternate;
   -webkit-animation-name: run;
   -webkit-animation-duration: 4s;
-  z-index: 0;
+  z-index: 2;
 }
 
 .u2-putin{
@@ -45,7 +45,37 @@ height:auto;
   -webkit-animation:linear infinite alternate;
   -webkit-animation-name: run2;
   -webkit-animation-duration: 20s;
+  z-index: 3;
+}
+
+.u2-drink{
+  position: absolute;
+  width: 60%;
+  height: auto;
+  z-index:2;
+}
+
+.u2-dance{
+  position: absolute;
+  width: 60%;
+  height: auto;
   z-index: 1;
+}
+
+.u2-landscape{
+  margin-top:20%;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 4;
+}
+
+.u2-ski{
+  margin-top:20%;
+  position: absolute;
+  width: 20%;
+  height: auto;
+  z-index: 6;
 }
 
 

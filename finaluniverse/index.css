@@ -74,7 +74,8 @@ img{
   height: 120%;
   margin-left: 5%;
   margin-top: 40%;
-  background-color: lightblue;
+  background: rgb(213,248,255);
+background: linear-gradient(90deg, rgba(213,248,255,1) 22%, rgba(18,202,255,1) 50%, rgba(215,244,254,1) 87%);
   display: block;
 }
 
