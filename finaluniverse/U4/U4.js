@@ -7,7 +7,7 @@ $(document).ready(function(){
       for (var i = 0; i < 20; i++) {
 
           var div = $("<div>");
-          div.addClass("rainfall");
+          div.addClass("rainfall2");
 
           var img = "<img src ='U4/img/41&46_APVR.png' id='rainfall"+i+"'/>";
           div.append(img);
