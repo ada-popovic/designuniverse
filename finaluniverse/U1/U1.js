@@ -76,9 +76,9 @@ $(".u1-postcard").click(function(){
   $(".u1-postcard").removeClass("no-print");
 });
 
-$(".u1-greenery").click(function(){
+$(".u1-green").click(function(){
   // $(this).css("background-color", "red");
-  $(".u1-greenery").removeClass("no-print");
+  $(".u1-green").removeClass("no-print");
 });
 
 $(".u1-portraits").click(function(){
@@ -103,3 +103,19 @@ $(".u1-graph3").click(function(){
   $(".u1-graph3").removeClass("no-print");
   $(".u1-graph3").css("mix-blend-mode","multiply");
 });
+
+
+$(".u1-text-data-1").click(function(){
+  // $(this).css("background-color", "red");
+  $(".u1-text-data-1").removeClass("no-print");
+});
+
+$(".u1-text-data-2").click(function(){
+  // $(this).css("background-color", "red");
+  $(".u1-text-data-2").removeClass("no-print");
+});
+
+function textAreaAdjust(o) {
+  o.style.height = "1px";
+  o.style.height = (25+o.scrollHeight)+"px";
+}
