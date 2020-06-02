@@ -20,7 +20,7 @@ $(document).ready(function(){
           div.css('left', randPosX);
           div.css('top', randPosY);
 
-          $("body").append(div);
+          $(".index-universe1").append(div);
       }
 
 })

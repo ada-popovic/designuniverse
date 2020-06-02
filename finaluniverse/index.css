@@ -15,7 +15,7 @@ body,html {
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-    
+
 
 
 
@@ -107,7 +107,6 @@ display: block;
   margin-top: 2%;
   width: 80%;
   height: 100%;
-  background-color: yellow;
   display: block;
 }
 
