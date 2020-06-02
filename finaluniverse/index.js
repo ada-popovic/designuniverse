@@ -89,7 +89,7 @@ $(".u3-transport-u4").click(function(){
 
 // UNIVERSE 4
 
-$(".u4-banana").click(function(){
+$(".u4-jezus").click(function(){
   $(".index-universe5").fadeToggle();
 });
 
