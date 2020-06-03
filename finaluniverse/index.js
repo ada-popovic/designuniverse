@@ -14,33 +14,11 @@ $(".u1-transport-u4").click(function(){
 
 // UNIVERSE 2
 
-$(".u2-landscape").click(function(){
+$(".u2-putin").click(function(){
   $(".index-universe3").fadeToggle();
 });
 
-$(".u2-n64").click(function(){
-  $(".u2-putin").fadeToggle();
-});
 
-$(".u2-putin").click(function(){
-  $(".u2-ski").fadeToggle();
-});
-
-$(".u2-putin").click(function(){
-  $(".u2-landscape").fadeToggle();
-});
-
-$(".u2-castel").click(function(){
-  $(".u2-drink").fadeToggle();
-});
-
-$(".u2-castel").click(function(){
-  $(".u2-dance").fadeToggle();
-});
-
-$(".u2-dance").click(function(){
-  $(".u2-landscape").fadeToggle();
-});
 
 // UNIVERSE 2 - NO PRINT
 $(document).ready(function(){
