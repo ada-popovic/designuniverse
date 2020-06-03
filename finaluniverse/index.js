@@ -8,9 +8,7 @@ $(".u1-judgement").click(function(){
   $(".index-universe2").fadeToggle();
 });
 
-$(".u3-stones").click(function(){
-  $(".index-universe4").fadeToggle();
-});
+
 
 // UNIVERSE 2
 
@@ -66,11 +64,10 @@ $(document).ready(function(){
 
 
 // UNIVERSE 3
-$(".u3-transport-u4").click(function(){
+
+$(".u3-stones").click(function(){
   $(".index-universe4").fadeToggle();
 });
-
-
 
 
 // UNIVERSE 4
@@ -198,27 +195,19 @@ $(".u1-judgement").click(function(){
   $(".index-map2").fadeToggle();
 });
 
-$(".u2-putin").click(function(){
+$(".u2-yoga").click(function(){
   $(".index-map1-3").fadeToggle();
 });
 
-$(".u2-putin").click(function(){
+$(".u2-yoga").click(function(){
   $(".index-map3").fadeToggle();
 });
 
 $(".u3-stones").click(function(){
-  $(".index-map4").fadeToggle();
+  $(".index-map1-4").fadeToggle();
 });
 
 $(".u3-stones").click(function(){
-  $(".index-map1-4").fadeToggle();
-});
-
-$(".u3-transport-u4").click(function(){
-  $(".index-map1-4").fadeToggle();
-});
-
-$(".u3-transport-u4").click(function(){
   $(".index-map4").fadeToggle();
 });
 
