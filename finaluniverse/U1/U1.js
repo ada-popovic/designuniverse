@@ -38,7 +38,9 @@ $( function() {
   $( '.u1-graph3' ).draggable( { });
 
   $( '.u1-portraits' ).draggable({ containment: "window" });
+  $( '.u1-plant' ).draggable({ containment: "window" });
 
+$( '.u1-man' ).draggable({ containment: "window" });
 
 });
 

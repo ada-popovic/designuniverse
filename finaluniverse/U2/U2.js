@@ -37,6 +37,7 @@ $( function() {
   $( '.u2-castel' ).draggable( { });
   $( '.u2-text-data-1' ).draggable( { });
   $( '.u2-text-data-2' ).draggable( { });
+  $( '.u2-yoga' ).draggable( { });
 });
 
 $(".u2-text-data-1").click(function(){
