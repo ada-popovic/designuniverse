@@ -1,0 +1,193 @@
+.u4-text-data-1 {
+  width: 600px;
+  height: 300px;
+  padding: 5px;
+  position: absolute;
+  z-index: 100;
+  background: transparent;
+  font-size: 5em;
+  font-family: sans-serif;
+  text-align: center;
+  border-style: none;
+  margin-top: 0%;
+  margin-left: 30%;
+  color:#ff00ed;
+  text-shadow: 0px 0px 8px #000;
+  word-break: break-word;
+  min-height: 60px;
+
+}
+
+.u4-eye img{
+  width:40%;
+  position: absolute;
+  display: inline-block;
+  margin-left: 0%;
+  height:auto;
+    z-index:0;
+}
+
+  .u4-eye-2 img{
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 33%;
+    height:auto;
+    transform-origin: center bottom;
+    -webkit-animation:spin 6s linear infinite;
+        -moz-animation:spin 6s linear infinite;
+        animation:spin 6s linear infinite;
+
+    }
+
+    .u4-firebar img{
+        position: absolute;
+      width:40%;
+      height:auto;
+      z-index:999;
+    }
+
+
+
+
+    .u4-banana img{
+      position: absolute;
+      width: 10%;
+      margin-left: 53%;
+      margin-top:5%;
+      height: auto;
+      -webkit-animation:linear infinite alternate;
+      -webkit-animation-name: run2;
+      -webkit-animation-duration: 20s;
+      z-index: 1;
+    }
+
+
+    .u4-font img{
+      width:10%;
+      margin-top:10%;
+      height:auto;
+        z-index: 3;
+    }
+
+    .u4-jazz img{
+      width:20%;
+      height:auto;
+      z-index: 2;
+      position: absolute;
+      margin-left: 60%;
+      margin-top: 10%;
+    }
+
+
+    .u4-bas{
+      position: absolute;
+      height: auto;
+      z-index: 4;
+      margin-left: 30%;
+        margin-top: 4%;
+    }
+
+
+    .u1-family{
+      position: absolute;
+      height: auto;
+      margin-top: 40%;
+      margin-left: 35%;
+      z-index: 5;
+      width:20%;
+      mix-blend-mode: normal;
+    }
+
+
+    .u4-jezus{
+      position: absolute;
+      height: auto;
+      margin-top: 0;
+      margin-left: 70%;
+      z-index: 6;
+      width:10%;
+      mix-blend-mode: normal;
+    }
+
+    .u4-endless img{
+      position: absolute;
+      height: auto;
+      margin-top: 0%;
+      margin-left: 35%;
+      z-index: 8;
+      width:20%;
+      mix-blend-mode: normal;
+      animation-name: width;
+      animation-iteration-count: infinite;
+      animation-duration: 4s;
+    }
+
+    .u4-head img{
+      position: absolute;
+      height: auto;
+      margin-top: -30%;
+      margin-left: 35%;
+      z-index: 9;
+      width:20%;
+      mix-blend-mode: normal;
+      animation-name: width2;
+      animation-iteration-count: infinite;
+      animation-duration: 3s;
+    }
+
+    .u4-devil img{
+      position: absolute;
+      height: auto;
+      margin-top: 0%;
+      margin-left: 15%;
+      z-index: 10;
+      width:80%;
+      mix-blend-mode: normal;
+    }
+
+    .u4-banana2 img{
+      position: absolute;
+      height: auto;
+      z-index: 11;
+      margin-top: 0%;
+      width:50%;
+      mix-blend-mode: normal;
+    }
+    .u4-hyper img{
+      position: absolute;
+      height: auto;
+      margin-top: -10%;
+      margin-left: 40%;
+      z-index: 12;
+      width:20%;
+      mix-blend-mode: normal;
+    }
+
+    .u4-drunk img{
+      position: absolute;
+      height: auto;
+      margin-top: 5%;
+      margin-left: 40%;
+      z-index: 0;
+      width:30%;
+      mix-blend-mode: normal;
+    }
+
+    @keyframes width {
+      0%   {width: 10%;}
+      50%  {width: 40%;}
+      100% {width: 10%;}
+    }
+
+    @keyframes width2 {
+      0%   {width: 20%;}
+      50%  {width: 10%;}
+      100% {width: 20%;}
+    }
+
+
+
+  @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+  @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+  @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

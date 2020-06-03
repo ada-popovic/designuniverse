@@ -1,0 +1,189 @@
+.u5-background {
+  /* background-color: blue; */
+  background-image: linear-gradient(orange 40%, yellow 50%);
+  width: 80%;
+  height: 300%;
+  z-index: -20;
+  position: absolute;
+}
+
+
+.u5-paprykarz img{
+  position: absolute;
+  display: inline-block;
+  height: auto;
+  margin-left: 2%;
+  margin-top: 5%;
+  z-index: 20;
+  width:20%;
+}
+
+.u5-guma img{
+  position: absolute;
+  display: inline-block;
+  height: auto;
+  margin-left: 27%;
+  margin-top: 0%;
+  z-index: 20;
+  width:25%;
+}
+
+.u5-paint img{
+  position: absolute;
+  display: inline-block;
+  height: auto;
+  margin-left: 55%;
+  margin-top: 5%;
+  z-index: 20;
+  width:20%;
+}
+
+.u5-tost img{
+  position: absolute;
+  display: inline-block;
+  height: auto;
+  margin-left: 2%;
+  margin-top: 50%;
+  z-index: 20;
+  width:20%;
+}
+
+.u5-tea img{
+  position: absolute;
+  display: inline-block;
+  height: auto;
+  margin-left: 27%;
+  margin-top: 50%;
+  z-index: 20;
+  width:20%;
+}
+
+.u5-omlet img{
+  position: absolute;
+  display: inline-block;
+  height: auto;
+  margin-left: 51%;
+  margin-top: 50%;
+  z-index: 20;
+  width:30%;
+}
+
+.u5-banan img{
+  position: absolute;
+  display: inline-block;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 100%;
+  z-index: 20;
+  width:5%;
+}
+
+.u5-chrupki img{
+  position: absolute;
+  display: inline-block;
+  height: auto;
+  margin-top: 90%;
+  margin-left: 50%;
+  z-index: 20;
+  width:35%;
+}
+
+
+.u5-text-data-1 {
+  width: 60%;
+  height: 30%;
+  padding: 5px;
+  position: absolute;
+  z-index: 0;
+  background: transparent;
+  font-size: 4em;
+  font-family: sans-serif;
+  text-align: center;
+  border-style: none;
+  margin-top: 25%;
+  margin-left: 0%;
+  color:red;
+  word-break: break-word;
+  min-height: 1px;
+  overflow: visible;
+
+}
+
+.u5-text-data-2 {
+  width: 50%;
+  /* height: 30%; */
+  padding: 5px;
+  position: absolute;
+  z-index: 90;
+  background: transparent;
+  font-size: 4em;
+  font-family: monospace;
+  text-align: left;
+  border-style: none;
+  margin-top: 70%;
+  margin-left: 10%;
+  color:green;
+  border: 4px solid green
+  word-break: break-word;
+  min-height: 6px;
+  overflow: visible;
+
+}
+
+
+.rainfall2 {
+  width: (random(1) + 1)+ '%';
+  /* width: 10%; */
+  background-blend-mode: color-burn;
+  pointer-events: none;
+  z-index: 0;
+  position: absolute;
+
+}
+
+.rainfall3 {
+  width: (random(10) + 1)+ '%';
+  /* width: 15%; */
+  pointer-events: none;
+  z-index: 1;
+  position: absolute;
+
+}
+
+.rainfall4 {
+  margin-top: 5000px;
+  width: (random(10) + 1)+ '%';
+  /* width: 10%; */
+  background-blend-mode: color-burn;
+  pointer-events: none;
+  z-index: 0;
+  position: absolute;
+
+}
+
+.u5-landscape1 {
+  margin-top: 130%;
+  margin-left: 0%;
+  width: 50%;
+  z-index: 1;
+  position: absolute;
+
+}
+
+.u5-landscape2 {
+  margin-top: 40%;
+  margin-left: 10%;
+  width: 170%;
+  z-index: -2;
+  position: absolute;
+
+}
+
+.u5-landscape3 {
+  margin-top: 0%;
+  margin-left: 0%;
+  width: 140%;
+  z-index: 0;
+  position: absolute;
+
+}
