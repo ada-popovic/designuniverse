@@ -8,14 +8,22 @@ $(".u1-judgement").click(function(){
   $(".index-universe2").fadeToggle();
 });
 
-$(".u1-transport-u4").click(function(){
+$(".u3-stones").click(function(){
   $(".index-universe4").fadeToggle();
 });
 
 // UNIVERSE 2
+$(".u1-sim").click(function(){
+  $(".index-universe3").fadeToggle();
+});
+
 
 $(".u2-putin").click(function(){
   $(".index-universe3").fadeToggle();
+});
+
+$(".u1-green").click(function(){
+  $(".index-universe5").fadeToggle();
 });
 
 
@@ -105,7 +113,7 @@ $(document).ready(function(){
 
 // UNIVERSE 5
 
-$(".u5-transport-print").click(function(){
+$(".u5-banan").click(function(){
   $(".index-printbutton").fadeToggle();
 });
 
