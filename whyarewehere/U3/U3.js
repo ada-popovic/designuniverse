@@ -109,10 +109,6 @@ $(".u3-double").click(function(){
   $(".u3-monkey").css("visibility","visible");
 });
 
-$(".u3-lamp").click(function(){
-  // $(this).css("background-color", "red");
-  $(".u3-lamp").css("width","160%");
-});
 
 // $(".u3-diary").click(function(){
 //   // $(this).css("background-color", "red");

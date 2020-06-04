@@ -60,7 +60,7 @@ function rainfall3() {
           var bodyWidth = document.getElementById("u5-section").clientWidth;
           var bodyHeight = document.getElementById("u5-section").clientHeight;
           var randPosX = Math.floor((Math.random()*bodyWidth*1));
-          var randPosY = Math.floor((Math.random()*bodyHeight*0.7));
+          var randPosY = Math.floor((Math.random()*bodyHeight*1));
 
           div.css('left', randPosX);
           div.css('top', randPosY);
@@ -92,7 +92,7 @@ function rainfall4() {
           var randPosY = Math.floor((Math.random()*bodyHeight*1));
 
           div.css('left', randPosX);
-          div.css('top', 2*randPosY);
+          div.css('top', randPosY);
 
           $(".index-universe5").append(div);
       }

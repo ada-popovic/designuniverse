@@ -218,3 +218,10 @@ $(".u4-jezus").click(function(){
 $(".u4-jezus").click(function(){
   $(".index-map5").fadeToggle();
 });
+
+
+// $(".u1-plant").click(function(){
+//   $(".index-map5").fadeToggle();
+//   $(".index-map1-5").fadeToggle();
+//   $(".index-universe5").fadeToggle();
+// });

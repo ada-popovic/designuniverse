@@ -7,9 +7,9 @@ $(document).ready(function(){
       for (var i = 0; i < 20; i++) {
 
           var div = $("<div>");
-          div.addClass("rainfall3");
+          div.addClass("u2-rainfall3");
 
-          var img = "<img src ='U2/img/47_DVD.png' id='rainfall3"+i+"'/>";
+          var img = "<img src ='U2/img/47_DVD.png' id='u2-rainfall3"+i+"'/>";
           div.append(img);
 
           var bodyWidth = document.body.clientWidth;
