@@ -54,9 +54,9 @@
   </div>
 
   <input type="text" id="username" class="username no-print" placeholder="What is your name?">
-  <button onclick="Name()" class="usernamebutton no-print">Start the journey</button>
+  <button onclick="Name(); window.location.href='#section-u1';" class="usernamebutton no-print">Start the journey</button>
 
-  <div class='index-universe1' style='display: none;'>
+  <div id='section-u1' class='index-universe1' style='display: none;'>
     <div class='u1-background no-print'></div>
     <!-- <input type="text" class="u1-text-data-1 no-print" placeholder="[YOUR TEXT HERE]" /> -->
     <textarea class="u1-text-data-1 no-print" name="Text1" cols="40" rows="5" placeholder="[YOUR TEXT HERE]" onkeyup="textAreaAdjust(this)" ></textarea>
